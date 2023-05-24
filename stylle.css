@@ -1,0 +1,21 @@
+body{
+    display:flex;
+    flex-direction:column;
+    margin:0;
+}
+main{
+    font-display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:50px;
+    background-color: blue;
+}
+footer{
+    background-color: aquamarine;
+}.review:hover{
+    background-color: blueviolet;
+    transform: scale(1.1);
+}
+.review { 
+ transition: 1s;
+}
